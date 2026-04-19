@@ -1,329 +1,236 @@
 [
   {
-    "id": "5656159762",
-    "title": "Full Stack Python Developer H/F",
-    "company": "Devoteam",
-    "location": "Levallois-Perret, Nanterre",
-    "description": "En tant que AI Full Stack Python Developer, vous jouerez un rôle central au sein de nos équipes produit, en concevant et en développant des solutions d'IA générative. Vous serez impliqué·e dès la phase de preuve de concept jusqu'à la mise en production, en adoptant des méthodologies Lean Startup et MVP pour valider rapidement les cas d'usage à fort impact. Vos missions Développement Frontend - Conception d'interfaces : Créer des interfaces utilisateurs performantes et intuitives, que ce soit vi…",
-    "salary_min": null,
-    "salary_max": null,
-    "posted_at": "2026-03-06T09:54:32Z",
-    "url": "https://www.adzuna.fr/details/5656159762?utm_medium=api&utm_source=36b0a582",
+    "id": "5309785011",
+    "title": "Full Stack Developer - Java/React",
+    "company": "Tec Partners Limited",
+    "location": "Warrington, Cheshire",
+    "description": "Job Description Full Stack Java Developer Location: Warrington (Hybrid - 1 day per week onsite) Salary: £50,000 – £55,000  benefits Employment Type: Permanent Opportunity Overview A fast-growing, technology-led organisation is seeking a Full Stack Java Developer to join its collaborative engineering team. This role is well-suited to someone who’s not just looking for a coding job, but who wants to get stuck in - someone with a clear desire to learn, take on ownership, and make a real contributi…",
+    "salary_min": 62926.26,
+    "salary_max": 62926.26,
+    "posted_at": "2025-07-18T12:00:52Z",
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5309785011?se=NIM2OiY88RGmQpZZA3C9gQ&utm_medium=api&utm_source=36b0a582&v=EB183A7CCD2692E36D709CB9AFE58728FF410DA6",
     "analysis": {
       "required_skills": [
-        "Python",
-        "Full Stack",
-        "Développement Frontend"
+        "Java",
+        "React",
+        "Full Stack"
       ],
-      "nice_to_have_skills": [
-        "IA générative",
-        "Méthodologies Lean Startup",
-        "MVP"
-      ],
+      "nice_to_have_skills": [],
       "seniority": "mid",
-      "company_tone": "corporate",
+      "company_tone": "scale-up",
       "key_missions": [
-        "Développement de solutions d'IA générative",
-        "Conception d'interfaces utilisateurs",
-        "Mise en production"
+        "Développer des applications full stack",
+        "Travailler en équipe pour résoudre des problèmes techniques",
+        "Contribuer à l'amélioration continue de l'équipe d'ingénierie"
       ],
       "match_keywords": [
         "Full Stack",
-        "Python",
-        "IA",
+        "Java",
+        "React",
         "Développement",
-        "Innovation"
+        "Ingénierie",
+        "Collaboration"
       ]
     }
   },
   {
-    "id": "5696392668",
-    "title": "Développeur FullStack DevOps Angular Python (IT) / Freelance",
-    "company": "BEEZEN",
-    "location": "Montreuil, Bobigny",
-    "description": "Je recherche un Développeur DevOps FullStack Python, Angular pour une prestation d’accompagnement dans le but de participer à la réalisation dans avec un rôle fullstask : développeur frontend (angular), backend (python) et DevOps (Gitlab CI). Les missions sont: Conception des programmes informatiques tant sur les aspects fonctionnels que technique (logs, service, gestion des sessions et de la sécurité ) Réalisation des programmes informatiques sans anomalie Configuration et gestion des différen…",
-    "salary_min": 450,
-    "salary_max": 530,
-    "posted_at": "2026-04-11T07:25:38Z",
-    "url": "https://www.adzuna.fr/details/5696392668?utm_medium=api&utm_source=36b0a582",
+    "id": "5703097202",
+    "title": "Senior Full Stack Developer (Java/AWS/Angular)",
+    "company": "Velocity Talent Ltd",
+    "location": "Leeds, West Yorkshire",
+    "description": "Senior Full Stack Developer (Java/AWS/Angular) Location: Leeds (3 Days Office-Based) Experience - 4 years minimum experience Salary: £50,000 £75,000 (Flexible for expert-level candidates) Status: Must have existing Right to Work in the UK (No Sponsorship available) The Role We are looking for three experienced Senior Full Stack Developers to join a high-performing engineering team in Leeds. You will design, build, and scale software on a modern, AWS-native stack , working in an agile environmen…",
+    "salary_min": 75000,
+    "salary_max": 75000,
+    "posted_at": "2026-04-18T01:49:02Z",
+    "url": "https://www.adzuna.co.uk/jobs/details/5703097202?utm_medium=api&utm_source=36b0a582",
     "analysis": {
       "required_skills": [
-        "Angular",
-        "Python",
-        "DevOps",
-        "Gitlab CI"
+        "Java",
+        "AWS",
+        "Angular"
+      ],
+      "nice_to_have_skills": [],
+      "seniority": "senior",
+      "company_tone": "corporate",
+      "key_missions": [
+        "Concevoir des logiciels",
+        "Développer des applications",
+        "Mettre à l'échelle des solutions logicielles"
+      ],
+      "match_keywords": [
+        "Full Stack",
+        "AWS-native",
+        "Agile",
+        "Engineering"
+      ]
+    }
+  },
+  {
+    "id": "5635278119",
+    "title": "Full-Stack Developer (Java  React / Next.js)- Poland",
+    "company": "RemoteStar",
+    "location": "Cambourne, Cambridge",
+    "description": "Job Title Full-Stack Developer (Java  React / Next.js) Location: Remote (Poland-based candidates only) About the Role We are looking for a skilled Full-Stack Developer with strong experience in Java on the backend and React.js or Next.js on the frontend. The ideal candidate is comfortable working in a remote, collaborative environment and has hands-on experience with Extreme Programming (XP) practices , including Test-Driven Development (TDD) and Pair Programming . You will work closely with cr…",
+    "salary_min": 67463.55,
+    "salary_max": 67463.55,
+    "posted_at": "2026-02-18T22:53:59Z",
+    "url": "https://www.adzuna.co.uk/jobs/details/5635278119?utm_medium=api&utm_source=36b0a582",
+    "analysis": {
+      "required_skills": [
+        "Java",
+        "React.js",
+        "Next.js",
+        "Extreme Programming (XP)",
+        "Test-Driven Development (TDD)",
+        "Pair Programming"
       ],
       "nice_to_have_skills": [],
       "seniority": "senior",
       "company_tone": "scale-up",
       "key_missions": [
-        "Conception des programmes informatiques",
-        "Réalisation des programmes informatiques",
-        "Configuration et gestion des différences"
+        "Développer des applications full-stack",
+        "Travailler en environnement collaboratif distant",
+        "Appliquer les pratiques de développement Extreme Programming"
       ],
       "match_keywords": [
-        "FullStack",
-        "DevOps",
-        "Angular",
-        "Python",
-        "Gitlab CI",
+        "Full-Stack",
+        "Java",
+        "React",
+        "Next.js",
+        "Développement distant",
+        "XP",
+        "TDD",
+        "Pair Programming"
+      ]
+    }
+  },
+  {
+    "id": "5670830837",
+    "title": "Full Stack Lead Developer (Java/ReactJS), Vice President - Citi",
+    "company": "Citi",
+    "location": "UK",
+    "description": "Discover your future at Citi Working at Citi is far more than just a job. A career with us means joining a team of more than 230,000 dedicated people from around the globe. At Citi, you'll have the opportunity to grow your career, give back to your community and make a real impact. Job Overview Discover your future at Citi Working at Citi is far more than just a job. A career with us means joining a team of more than 230,000 dedicated people from around the globe. At Citi, you'll have the oppor…",
+    "salary_min": 76533.47,
+    "salary_max": 76533.47,
+    "posted_at": "2026-03-18T16:35:23Z",
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5670830837?se=NIM2OiY88RGmQpZZA3C9gQ&utm_medium=api&utm_source=36b0a582&v=EE21A1E37D492A6E40080A7527F4B07FF09658E6",
+    "analysis": {
+      "required_skills": [
+        "Java",
+        "ReactJS"
+      ],
+      "nice_to_have_skills": [],
+      "seniority": "senior",
+      "company_tone": "corporate",
+      "key_missions": [
+        "Développer des applications Full Stack",
+        "Diriger une équipe de développeurs",
+        "Contribuer à la stratégie technologique de l'entreprise"
+      ],
+      "match_keywords": [
+        "Full Stack",
+        "Java",
+        "ReactJS",
+        "Leadership",
         "Développement logiciel"
       ]
     }
   },
   {
-    "id": "5697132734",
-    "title": "Développeur FullStack DevOps Angular Python (IT) / Freelance",
-    "company": "Free-Work",
-    "location": "Montreuil, Pas-de-Calais",
-    "description": "Je recherche un Développeur DevOps FullStack Python, Angular pour une prestation d’accompagnement dans le but de participer à la réalisation dans avec un rôle fullstask : développeur frontend (angular), backend (python) et DevOps (Gitlab CI). Les missions sont: Conception des programmes informatiques tant sur les aspects fonctionnels que technique (logs, service, gestion des sessions et de la sécurité ) Réalisation des programmes informatiques sans anomalie Configuration et gestion des différen…",
-    "salary_min": 112500,
-    "salary_max": 112500,
-    "posted_at": "2026-04-12T03:44:12Z",
-    "url": "https://www.adzuna.fr/details/5697132734?utm_medium=api&utm_source=36b0a582",
+    "id": "5645502101",
+    "title": "Full Stack Lead Developer (Java/ReactJS), Vice President",
+    "company": "Citigroup",
+    "location": "Belfast, Northern Ireland",
+    "description": "Discover your future at Citi Working at Citi is far more than just a job. A career with us means joining a team of more than 230,000 dedicated people from around the globe. At Citi, you'll have the opportunity to grow your career, give back to your community and make a real impact. Job Overview Engineer the future of global finance. At Citi, our Tech team doesn't just support finance - we are helping to redefine it. Every day, $5 trillion crosses through our network. We do business in 180 count…",
+    "salary_min": 79229.17,
+    "salary_max": 79229.17,
+    "posted_at": "2026-02-25T21:44:58Z",
+    "url": "https://www.adzuna.co.uk/jobs/details/5645502101?utm_medium=api&utm_source=36b0a582",
     "analysis": {
       "required_skills": [
-        "Angular",
-        "Python",
-        "DevOps",
-        "Gitlab CI"
+        "Java",
+        "ReactJS"
       ],
       "nice_to_have_skills": [],
       "seniority": "senior",
-      "company_tone": "startup",
-      "key_missions": [
-        "Conception des programmes informatiques",
-        "Réalisation des programmes informatiques",
-        "Configuration et gestion des services"
-      ],
-      "match_keywords": [
-        "FullStack",
-        "DevOps",
-        "Angular",
-        "Python",
-        "Gitlab CI",
-        "Développement logiciel"
-      ]
-    }
-  },
-  {
-    "id": "5663288153",
-    "title": "Administrateur Poste de Travail H/F",
-    "company": "Manpower",
-    "location": "La-Madeleine, Lille",
-    "description": "Manpower DIGITAL LILLE recherche pour son client, un Administrateur Poste de travail (H/F) afin d'accompagner l'un de nos clients de la métropole lilloise dans l'évolution et l'industrialisation de son environnement Windows. Le poste s'inscrit au sein d'une équipe de 10 experts, en charge d'un parc de près de 15 000 postes, et engagée dans une dynamique d'innovation centrée sur l'automatisation, le provisioning et les nouveaux usages (chatbots, pratiques DevOps?). - Contribuer aux projets d'inn…",
-    "salary_min": 45000,
-    "salary_max": 45000,
-    "posted_at": "2026-03-13T09:29:11Z",
-    "url": "https://www.adzuna.fr/details/5663288153?utm_medium=api&utm_source=36b0a582",
-    "analysis": {
-      "required_skills": [
-        "Windows",
-        "Administration de postes de travail",
-        "Automatisation",
-        "Provisioning"
-      ],
-      "nice_to_have_skills": [
-        "DevOps",
-        "Chatbots"
-      ],
-      "seniority": "mid",
       "company_tone": "corporate",
       "key_missions": [
-        "Gérer un parc de postes de travail",
-        "Contribuer aux projets d'innovation",
-        "Travailler en équipe pour industrialiser l'environnement Windows"
+        "Développer des solutions technologiques",
+        "Diriger une équipe de développement",
+        "Contribuer à l'innovation financière"
       ],
       "match_keywords": [
-        "Poste de travail",
-        "Windows",
-        "Automatisation",
-        "Innovation",
-        "DevOps"
-      ]
-    }
-  },
-  {
-    "id": "5661453962",
-    "title": "Tech Lead Full-Stack - Data & Cloud H/F",
-    "company": "Celad",
-    "location": "Rangueuil, Toulouse",
-    "description": "Tech Lead Full-Stack / Data & Cloud (F/H) A LIRE ATTENTIVEMENT AVANT DE POSTULER 2 jours de télétravail / semaine - Toulouse Vous aimez autant coder que prendre de la hauteur sur l'architecture et la qualité logicielle ? Vous êtes à l'aise pour accompagner une équipe technique tout en mettant en place des stratégies de tests solides et durables ? Cette opportunité est faite pour vous ! Nous poursuivons notre développement et recherchons actuellement un.e un.e Tech Lead Full-Stack pour interveni…",
-    "salary_min": 45000,
-    "salary_max": 51000,
-    "posted_at": "2026-03-11T09:53:34Z",
-    "url": "https://www.adzuna.fr/details/5661453962?utm_medium=api&utm_source=36b0a582",
-    "analysis": {
-      "required_skills": [
-        "Full-Stack",
-        "Data",
-        "Cloud",
-        "Architecture logicielle",
-        "Tests"
-      ],
-      "nice_to_have_skills": [
-        "Télétravail"
-      ],
-      "seniority": "senior",
-      "company_tone": "scale-up",
-      "key_missions": [
-        "Développer des solutions Full-Stack",
-        "Accompagner une équipe technique",
-        "Mettre en place des stratégies de tests solides"
-      ],
-      "match_keywords": [
-        "Tech Lead",
-        "Full-Stack",
-        "Data",
-        "Cloud",
-        "Architecture logicielle",
-        "Tests",
-        "Télétravail"
-      ]
-    }
-  },
-  {
-    "id": "5687597611",
-    "title": "Développeur FullStack DevOps Angular Python (IT)",
-    "company": "BEEZEN",
-    "location": "Montreuil, Bobigny",
-    "description": "Je recherche un Développeur DevOps FullStack Python, Angular pour une prestation d?accompagnement dans le but de participer à la réalisation dans avec un rôle fullstask : développeur frontend (angular), backend (python) et DevOps (Gitlab CI). Les missions sont: Conception des programmes informatiques tant sur les aspects fonctionnels que technique (logs, service, gestion des sessions et de la sécurité ) Réalisation des programmes informatiques sans anomalie Configuration et gestion des différen…",
-    "salary_min": 450,
-    "salary_max": 530,
-    "posted_at": "2026-04-02T18:04:48Z",
-    "url": "https://www.adzuna.fr/details/5687597611?utm_medium=api&utm_source=36b0a582",
-    "analysis": {
-      "required_skills": [
-        "Angular",
-        "Python",
-        "DevOps",
-        "Gitlab CI"
-      ],
-      "nice_to_have_skills": [],
-      "seniority": "mid",
-      "company_tone": "corporate",
-      "key_missions": [
-        "Conception des programmes informatiques",
-        "Réalisation des programmes informatiques",
-        "Configuration et gestion des différences"
-      ],
-      "match_keywords": [
-        "Développeur FullStack",
-        "DevOps",
-        "Angular",
-        "Python",
-        "Gitlab CI"
-      ]
-    }
-  },
-  {
-    "id": "5643211096",
-    "title": "Ingénieur full stack AWS / LLM",
-    "company": "O2MAX",
-    "location": "4ème-Arrondissement, Lyon",
-    "description": "Contexte Nous recherchons un·e Ingénieur·e Full Stack AWS / LLM pour intervenir sur un nouveau projet chez l'un de nos clients, autour de sujets finance et approvisionnement. Vous serez amené(e) à travailler dans une équipe internationale, la maitrise de l'anglais est donc indispensable. Missions - Développer des applications full stack sur AWS - Utiliser les services AWS : Lambda, API Gateway, DynamoDB, S3, CloudFront, Cognito, ECS/EKS - Intégrer des LLM via AWS Bedrock, SageMaker ou des API e…",
-    "salary_min": null,
-    "salary_max": null,
-    "posted_at": "2026-02-24T07:13:55Z",
-    "url": "https://www.adzuna.fr/details/5643211096?utm_medium=api&utm_source=36b0a582",
-    "analysis": {
-      "required_skills": [
-        "AWS",
         "Full Stack",
-        "LLM",
-        "Anglais"
-      ],
-      "nice_to_have_skills": [],
-      "seniority": "senior",
-      "company_tone": "corporate",
-      "key_missions": [
-        "Développer des applications full stack sur AWS",
-        "Utiliser les services AWS",
-        "Intégrer des LLM"
-      ],
-      "match_keywords": [
-        "AWS",
-        "Full Stack",
-        "LLM",
+        "Lead Developer",
         "Finance",
-        "Approvisionnement",
-        "Cloud",
-        "Lambda",
-        "API Gateway",
-        "DynamoDB"
+        "Technologie"
       ]
     }
   },
   {
-    "id": "5702787690",
-    "title": "Développeur.se Python Fullstack F/H",
-    "company": "Inoco",
-    "location": "10ème Arrondissement, Paris",
-    "description": "Et si vous rejoigniez INOCO, une société de conseil tech qui vous connaît, vous valorise et vous donne les moyens d’évoluer selon vos ambitions ? ⭐️ En tant que consultant.e, vous interviendrez chez nos clients – grands comptes comme start-ups – pour créer et pérenniser leurs produits tech  De façon agile & engagée En parallèle, en interne, vous intégrerez une communauté tech passionnés dont les expertises couvrent tout le cycle de vie d’un projet  Cadrage & gestion de projet Développement & ré…",
-    "salary_min": 55000,
-    "salary_max": 63000,
-    "posted_at": "2026-04-17T22:22:00Z",
-    "url": "https://www.adzuna.fr/details/5702787690?utm_medium=api&utm_source=36b0a582",
+    "id": "5686943447",
+    "title": "Lead Full-Stack Java Developer - SC Cleared",
+    "company": "Searchability  Ltd",
+    "location": "London, UK",
+    "description": "Lead Full Stack Java Developer - SC Cleared NEW PERMANENT OPPORTUNITY FOR A LEAD FULL-STACK JAVA DEVELOPER IN LONDON WITH SC CLEARANCE Location: London (Hybrid) Salary: £80,000 - £95,000 per annum Clearance: Active SC Clearance required To apply: email dominic.barbet@searchability.com The Company Join a specialist technology consultancy delivering complex, mission-critical projects across UK Government and national security sectors. You'll be part of a collaborative, engineering-focused environ…",
+    "salary_min": 80000,
+    "salary_max": 95000,
+    "posted_at": "2026-04-02T07:06:08Z",
+    "url": "https://www.adzuna.co.uk/jobs/details/5686943447?utm_medium=api&utm_source=36b0a582",
     "analysis": {
       "required_skills": [
-        "Python",
-        "Fullstack"
+        "Java",
+        "Full-Stack"
       ],
-      "nice_to_have_skills": [
-        "Agile",
-        "Gestion de projet"
-      ],
-      "seniority": "mid",
-      "company_tone": "scale-up",
+      "nice_to_have_skills": [],
+      "seniority": "senior",
+      "company_tone": "corporate",
       "key_missions": [
-        "Développer des produits tech",
-        "Intervenir chez les clients",
-        "Intégrer une communauté tech"
+        "Développer des applications full-stack",
+        "Travailler sur des projets critiques pour le gouvernement britannique",
+        "Collaborer avec une équipe d'ingénieurs"
       ],
       "match_keywords": [
-        "Python",
-        "Fullstack",
-        "Conseil tech",
-        "Agile",
-        "Développement"
+        "Java",
+        "Full-Stack",
+        "SC Clearance",
+        "Sécurité nationale",
+        "Gouvernement"
       ]
     }
   },
   {
-    "id": "5686086347",
-    "title": "INGÉNIEUR RECHERCHE ET DÉVELOPPEMENT - H/F - Inserm",
-    "company": "Inserm",
-    "location": "Gironde, Nouvelle-Aquitaine",
-    "description": "Le poste Structure Délégation Régionale Inserm Nouvelle-Aquitaine - U 1219 dirigée par M. Rodolphe THIEBAUD A propos de la structure Le centre Bordeaux Population Health ( BPH , U1219 Univ. Bordeaux - Inserm), l’un des principaux centres de recherche en santé des populations en France, comprend 10 équipes (~500 personnes) travaillant sur des thématiques diverses en santé publique, avec 5 domaines transversaux d’excellence: (i) santé cérébrale tout au long de la vie; (ii) science des données (IA…",
-    "salary_min": 2421,
-    "salary_max": 3534,
-    "posted_at": "2026-04-01T22:28:53Z",
-    "url": "https://www.adzuna.fr/details/5686086347?utm_medium=api&utm_source=36b0a582",
+    "id": "5676137760",
+    "title": "Full Stack Java & Python Developer",
+    "company": "Square One Resources",
+    "location": "Bournemouth, Dorset",
+    "description": "Job Title: Full-stack Java & Python Developer Location: Bournemouth (x5 days in office) Salary/Rate: £409 a day (Inside IR35) Start Date: April 2026 Job Type: Initial 6 month contract Job Overview: We are seeking an experienced Senior Java and Python Full Stack Developer to design, develop, and maintain scalable enterprise applications at our client who is a leading global investment bank. The successful candidate will play a key role in delivering high-quality solutions using Java, Python, Spr…",
+    "salary_min": 0,
+    "salary_max": 106340,
+    "posted_at": "2026-03-23T19:00:27Z",
+    "url": "https://www.adzuna.co.uk/jobs/details/5676137760?utm_medium=api&utm_source=36b0a582",
     "analysis": {
       "required_skills": [
-        "recherche",
-        "développement",
-        "science des données",
-        "IA"
+        "Java",
+        "Python",
+        "Full Stack"
       ],
       "nice_to_have_skills": [
-        "santé publique",
-        "santé cérébrale"
+        "Spr"
       ],
       "seniority": "senior",
       "company_tone": "corporate",
       "key_missions": [
-        "Conduire des recherches en santé des populations",
-        "Développer des solutions basées sur l'IA et la science des données",
-        "Collaborer avec des équipes de recherche"
+        "Concevoir des applications",
+        "Développer des solutions",
+        "Maintenir des applications"
       ],
       "match_keywords": [
-        "recherche",
-        "développement",
-        "santé des populations",
-        "IA",
-        "science des données",
-        "Inserm"
+        "Full Stack",
+        "Java",
+        "Python",
+        "Développement",
+        "Banque d'investissement"
       ]
     }
   }

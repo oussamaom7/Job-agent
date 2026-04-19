@@ -1,0 +1,83 @@
+{
+  "name"    : "Oussama Maache",
+  "email"   : "om7.oussama@gmail.com",
+  "phone"   : "+212767389825",
+  "linkedin": "linkedin.com/in/oussama-maache",
+  "github"  : "github.com/oussamaom7",
+  "title"   : "Full-Stack Engineer & AI Developer",
+  "summary" : "Final-year engineering student specializing in AI and Information Systems, with hands-on experience building full-stack applications and LLM-powered pipelines.",
+
+  "skills": {
+    "frontend" : ["React", "Angular", "TypeScript", "CSS"],
+    "backend"  : ["Node.js", "Spring Boot", "FastAPI", "MedusaJS"],
+    "ai"       : ["LangChain", "CrewAI", "RAG", "Groq", "ChromaDB", "TensorFlow"],
+    "devops"   : ["Docker", "CI/CD", "PostgreSQL", "Git"],
+    "languages": ["Python", "JavaScript", "Java"]
+  },
+
+  "experiences": [
+    {
+      "id"      : "decq",
+      "role"    : "Full-Stack Software Engineer — Internship",
+      "company" : "DECQ (Web-to-Print SaaS)",
+      "period"  : "Feb 2026 – Aug 2026",
+      "bullets" : [
+        "Built and maintained features on a MedusaJS + React stack serving B2B clients",
+        "Designed RAG pipeline with LangChain and ChromaDB to automate product descriptions",
+        "Implemented CI/CD workflows with Docker reducing deployment time by 40%"
+      ],
+      "tags": ["fullstack", "ai", "devops", "rag"]
+    },
+    {
+      "id"      : "emsi",
+      "role"    : "AI Engineering Student Project",
+      "company" : "EMSI Casablanca",
+      "period"  : "2023 – 2026",
+      "bullets" : [
+        "Led a team of 4 on a real-time fact-checking platform (Verifact Live)",
+        "Designed microservices architecture with Spring Boot, Kafka, and Docker Compose"
+      ],
+      "tags": ["fullstack", "backend", "devops"]
+    }
+  ],
+
+  "projects": [
+    {
+      "id"         : "verifact",
+      "name"       : "Verifact Live",
+      "description": "Real-time fact-checking platform with Angular 17, Spring Boot, Kafka, PostgreSQL, Groq Whisper",
+      "highlights" : [
+        "Processed audio streams in real-time using Groq Whisper API",
+        "Built event-driven architecture with Kafka handling 1000+ events/sec"
+      ],
+      "tags": ["fullstack", "ai", "backend", "kafka"]
+    },
+    {
+      "id"         : "n8n-agent",
+      "name"       : "E-commerce Automation Agent",
+      "description": "Self-hosted n8n workflow: abandoned cart recovery with Telegram alerts, Ollama emails, Gmail, Google Sheets",
+      "highlights" : [
+        "Reduced cart abandonment follow-up time from hours to seconds",
+        "Integrated local LLM (Ollama) for personalized email generation"
+      ],
+      "tags": ["ai", "automation", "llm"]
+    },
+    {
+      "id"         : "rag-pipeline",
+      "name"       : "RAG Pipeline — DECQ",
+      "description": "LangChain + ChromaDB pipeline for automated product description generation",
+      "highlights" : [
+        "Cut manual content creation time by 60%",
+        "Integrated Groq Cloud LLM with custom chunking strategy"
+      ],
+      "tags": ["ai", "rag", "llm", "backend"]
+    }
+  ],
+
+  "education": {
+    "degree" : "Cycle Ingénieur — AI & Information Systems",
+    "school" : "EMSI Casablanca",
+    "period" : "2021 – 2026",
+    "note"   : "Graduating July 2026"
+  }
+}

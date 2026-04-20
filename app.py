@@ -75,20 +75,23 @@ with st.sidebar:
 
     st.markdown("### 🔍 Recherche d'offres")
 
-    keywords = st.text_input(
-        "Mots-clés",
-        value="full stack developer python",
-        help="Ex: react node developer, python backend engineer"
+    keywords = st.text_input("Mots-clés", value="full stack developer python")
+
+    source = st.radio(
+        "Source",
+        options=["Adzuna", "LinkedIn", "WTTJ"],
+        horizontal=True
     )
 
-    country = st.selectbox(
-        "Pays",
-        options=["fr", "gb", "us", "de"],
-        index=0,
-        help="Code pays Adzuna"
-    )
-
-    nb_results = st.slider("Nombre d'offres", min_value=5, max_value=50, value=10, step=5)
+    # Options spécifiques selon la source
+    if source == "Adzuna":
+        country = st.selectbox("Pays", options=["fr", "gb", "us", "de"], index=0)
+        nb_results = st.slider("Nombre d'offres", 5, 50, 10, step=5)
+        location = "France"
+    else:
+        location   = st.text_input("Localisation", value="Maroc")
+        nb_results = st.slider("Nombre d'offres", 5, 20, 10, step=5)
+        country    = "fr"
 
     my_keywords = st.multiselect(
         "Filtrer par compétences",
@@ -98,18 +101,37 @@ with st.sidebar:
 
     st.markdown("---")
 
-    # Bouton principal
     if st.button("🚀 Lancer le pipeline", use_container_width=True, type="primary"):
-        with st.spinner("Scraping en cours..."):
-            raw   = fetch_jobs(keywords, country=country, results_per_page=nb_results)
-            clean = clean_jobs(raw)
-            filtered = filter_jobs(clean, my_keywords)
-            save_jobs(filtered)
+        # ── Scraping selon la source choisie ──
+        with st.spinner(f"Scraping {source} en cours..."):
+            if source == "Adzuna":
+                from scraper.adzuna_scraper import fetch_jobs, clean_jobs, filter_jobs, save_jobs
+                raw      = fetch_jobs(keywords, country=country, results_per_page=nb_results)
+                clean    = clean_jobs(raw)
+                filtered = filter_jobs(clean, my_keywords)
+                save_jobs(filtered)
 
+            elif source == "LinkedIn":
+                from scraper.linkedin_scraper import scrape_linkedin, save_linkedin_jobs
+                from scraper.adzuna_scraper import filter_jobs, save_jobs
+                raw      = scrape_linkedin(keywords, location=location, max_jobs=nb_results)
+                filtered = filter_jobs(raw, my_keywords)
+                save_linkedin_jobs(filtered)
+
+            elif source == "WTTJ":
+                from scraper.wttj_scraper import scrape_wttj, save_wttj_jobs
+                from scraper.adzuna_scraper import filter_jobs
+                raw      = scrape_wttj(keywords, location=location, max_jobs=nb_results)
+                filtered = filter_jobs(raw, my_keywords)
+                save_wttj_jobs(filtered)
+
+        st.success(f"✓ {len(filtered)} offres récupérées depuis {source}")
+
+        # ── Analyse Groq ──
         with st.spinner("Analyse avec Groq..."):
+            from agents.analyzer_agent import analyze_all_jobs
             analyzed = analyze_all_jobs()
             st.session_state.jobs_analyzed = analyzed
-            # Init decisions à "pending" pour chaque offre
             for job in analyzed:
                 jid = job["id"]
                 if jid not in st.session_state.decisions:
@@ -127,10 +149,13 @@ with st.sidebar:
         pending  = total - approved - rejected
 
         st.markdown("### 📊 Résumé")
-        st.metric("Total offres",  total)
-        st.metric("✅ Approuvées", approved)
-        st.metric("❌ Rejetées",   rejected)
-        st.metric("⏳ En attente", pending)
+        col1, col2 = st.columns(2)
+        with col1:
+            st.metric("Total",      total)
+            st.metric("✅ Approuvées", approved)
+        with col2:
+            st.metric("⏳ En attente", pending)
+            st.metric("❌ Rejetées",   rejected)
 
 
 # ─────────────────────────────────────────
